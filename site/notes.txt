@@ -1,0 +1,23 @@
+install git if not installed already
+
+1) got to  git repository and settings and enable gitHub pages
+2) create index.html and commit changes
+3) open url published by github pages 
+https://anthonysjce.github.io/coursera-js-html-css/site/
+last '/' indicates index.html
+
+4) npm install -g browser-sync
+5) cd site //very important
+6) browser-sync start --server --directory --files "*"
+
+to check the html tag  
+https://html.spec.whatwg.org/#toc-webappapis
+
+https://caniuse.com/
+
+for validation 
+https://validator.w3.org/
+
+content model 
+https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html
+
