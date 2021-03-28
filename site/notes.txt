@@ -5,6 +5,8 @@ install git if not installed already
 3) open url published by github pages 
 https://anthonysjce.github.io/coursera-js-html-css/site/
 last '/' indicates index.html
+sometimes it wont work . apply theme and re-try
+put index.html in a folder and re try applying theme
 
 4) npm install -g browser-sync
 5) cd site //very important
@@ -26,3 +28,6 @@ All examples of this course
 https://github.com/jhu-ep-coursera/fullstack-course4
 
 https://clearlydecoded.com/
+
+FAQ
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md
