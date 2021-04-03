@@ -15,3 +15,26 @@ body {
     height: 150px;
     margin: 10px 15px 10px 0px;
 }
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #55763e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: .75;
+}
+.navbar-brand a:hover , .navbar-brand a:focus {
+ text-decoration: none;
+}
+.navbar-brand p {
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #000;
+    font-size: 0.7em;
+}
+.navbar-brand p span {
+   vertical-align: middle;
+}

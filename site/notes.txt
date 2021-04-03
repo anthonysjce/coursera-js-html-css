@@ -10,7 +10,8 @@ put index.html in a folder and re try applying theme
 
 4) npm install -g browser-sync
 5) cd site //very important
-6) browser-sync start --server --directory --files "*"
+6) browser-sync start --server --directory --files "**/*"
+
 
  to check the html tags and api  
 https://html.spec.whatwg.org/#toc-webappapis
