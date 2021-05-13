@@ -18,3 +18,29 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     $(event.target).focus();
   }); */
 });
+
+(function(global){
+  var homehtml = "snippets/home-snippet.html";
+
+  //utility function 
+  var insertHtml = function(selector,html) {
+    var targetElement = document.querySelector(selector);
+    targetElement.innerHTML = html;
+  }
+
+  var showLoading = function(selector) {
+    var html = "<div class='text-center'>";
+    html += "<img src='images/ajax-loader.gif'></div>";
+    insertHtml(selector,html);
+  }
+
+  document.addEventListener("DOMContentLoaded",function(){
+    showLoading("#main-content");
+    $ajaxUtils.sendGetRequest(homehtml, function(responseText) {
+      document.querySelector("#main-content")
+      .innerHTML = responseText;
+    },false);
+
+  });
+
+})(window);
